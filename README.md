@@ -8,7 +8,7 @@
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=2800&pause=900&color=00FF9C&center=true&vCenter=true&width=900&height=70&lines=%24+whoami+%E2%86%92+Backend+%2B+Systems+Developer;%24+./chess_engine+--perft+5+%E2%86%92+PASSED+%E2%9C%93;%24+cat+vichar%2Findex.db+%E2%86%92+5000%2B+pages+indexed;%24+uptime+%E2%86%92+Building.+Always." />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=2800&pause=900&color=00FF9C&center=true&vCenter=true&width=900&height=70&lines=%24+whoami+%E2%86%92+Backend+%2B+Systems+Developer;%24+./chess_engine+--perft+5+%E2%86%92+PASSED+%E2%9C%93;%24+cat+vichar%2Findex.db+%E2%86%92+5000%2B+pages+indexed;%24+curl+shawty.in+%E2%86%92+301+Redirect+%E2%9A%A1;%24+uptime+%E2%86%92+Building.+Always." />
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF9C,50:00B4D8,100:0d1117&height=80&section=header&reversal=true"/>
 
@@ -43,6 +43,7 @@ namespace AT8Cool {
   void currentlyBuilding() {
     chess_engine::runPerft(5);    // ✓ PASSED — Alpha-beta, PSTs, UCI
     vichar::indexDocuments(5000); // BM25 + PageRank, live on Vercel
+    shawty::shortenURL();         // FastAPI + React, live on shawty.in
   }
 
 }
@@ -51,6 +52,7 @@ namespace AT8Cool {
 - 🎓 Final-year **Electronics & Computer Science** @ SIES GST
 - ♟️ Built a **C++ Chess Engine** from scratch — UCI/Arena, Perft 5 verified
 - 🔍 Built **[Vichar](https://vichar-engine.vercel.app)** — full-stack search engine, BM25 + PageRank
+- ✂️ Built **[Shawty](https://www.shawty.in/)** — self-hosted URL shortener, deployed end-to-end with HTTPS
 - 🌐 Raw **HTTP server in C** via Winsock2 — multithreaded, zero frameworks
 - 🥇 **CTF: X'ploitathon 2025** — 1st place out of all teams
 - 🧠 I read source code the way most people read docs
@@ -65,6 +67,7 @@ namespace AT8Cool {
 |:------:|---------|-------------|-------|
 | `[LIVE]` | ♟️ **[Chess Engine](https://github.com/AT8Cool/CHESS-ENGINE)** | Alpha-beta pruning · PSTs · UCI/Arena · Perft 5 ✓ | `C++` |
 | `[LIVE]` | 🔍 **[Vichar](https://vichar-engine.vercel.app)** | crawl → index → BM25+PageRank → serve · 5k+ pages | `Python` `FastAPI` `React` `TS` |
+| `[LIVE]` | ✂️ **[Shawty](https://www.shawty.in/)** | URL shortener · 24h expiring links · Dockerized VM deploy w/ Nginx + HTTPS | `React` `TS` `Vite` `FastAPI` `Docker` |
 | `[ARCH]` | 🌐 **HTTP Server** | Multithreaded raw socket server — no libs, no mercy | `C` `Winsock2` |
 | `[ARCH]` | ⚡ **Chess Arena** | Real-time multiplayer chess, live sync | `Node.js` `Socket.IO` |
 | `[ARCH]` | 🛡️ **CTF Arsenal** | Web · reversing · binary exploitation | `Python` `Bash` |
@@ -139,6 +142,7 @@ namespace AT8Cool {
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Atharva_Bhosale-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atharva-bhosale-ab9659302/)
 [![Email](https://img.shields.io/badge/Email-atharvabhosale624%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:atharvabhosale624@gmail.com)
 [![Vichar](https://img.shields.io/badge/Vichar-Live_Demo-00FF9C?style=for-the-badge&logo=vercel&logoColor=black)](https://vichar-engine.vercel.app)
+[![Shawty](https://img.shields.io/badge/Shawty-shawty.in-00B4D8?style=for-the-badge&logo=link&logoColor=white)](https://www.shawty.in/)
 
 </div>
 
