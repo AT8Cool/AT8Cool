@@ -50,7 +50,7 @@ namespace AT8Cool {
 ```
 
 - 🎓 Final-year **Electronics & Computer Science** @ SIES GST
-- ♟️ Built a **C++ Chess Engine** from scratch — UCI/Arena, Perft 5 verified
+- ♟️ Built a **C++ Chess Engine(https://play.shawty.in/)** from scratch — UCI/Arena, Perft 5 verified
 - 🔍 Built **[Vichar](https://vichar-engine.vercel.app)** — full-stack search engine, BM25 + PageRank
 - ✂️ Built **[Shawty](https://www.shawty.in/)** — self-hosted URL shortener, deployed end-to-end with HTTPS
 - 🌐 Raw **HTTP server in C** via Winsock2 — multithreaded, zero frameworks
